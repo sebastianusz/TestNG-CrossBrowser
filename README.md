@@ -21,20 +21,20 @@ It allows configuring tests to run in parallel, grouping tests, passing paramete
 `thread-count` is a number of threads to use if parallel execution is used (else it is ignored).
 
 `<parameter>` tag is for passing parameters as String to test methods in runtime.
-In this example it passes which browser to uses in given test.
+In this example it passes which browser to use in given test.
 
 More about TestNG here: https://testng.org/doc/documentation-main.html
 
 
 ![Alt text](screens/img.png?raw=true "Optional Title")
 
-setup method takes in browser parameter from *testng.xml* via `@Parameters` 
+Setup method takes in browser parameter from *testng.xml* via `@Parameters` 
 annotation and creates webdriver instance accordingly.
 WebDriverManager (https://github.com/bonigarcia/webdrivermanager) takes care of managing webdriver versions.
 
 ![Alt text](screens/img_1.png?raw=true "Optional Title")
 
-After setup test suite runs test method. You can set execution order by specifying
+After a setup, test suite runs test method. You can set execution order by specifying
 annotation element `priority`
 
 ![Alt text](screens/img_2.png?raw=true "Optional Title")
