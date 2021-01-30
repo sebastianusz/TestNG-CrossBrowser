@@ -1,6 +1,9 @@
 #TestNG - Cross Browser Testing
+
 Simple example of cross browser testing using TestNG
+
 ##Run
+
 ```
 mvn clean
 mvn test
