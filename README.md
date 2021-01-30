@@ -14,8 +14,10 @@ mvn test
 *testng.xml* file is a configuration file which organizes tests.
 It allows configuring tests to run in parallel, grouping tests, passing parameters into test methods.
 
-`<suite>` tag is a collection of test cases. A suite is represented by one *.xml* file
+`<suite>` tag is a collection of test cases. A suite is represented by one *.xml* file.
+
 `parallel` parameter is for parallel execution of tests.
+
 `thread-count` is a number of threads to use if parallel execution is used (else it is ignored).
 
 `<parameter>` tag is for passing parameters as String to test methods in runtime.
