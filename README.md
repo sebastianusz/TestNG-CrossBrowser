@@ -1,15 +1,15 @@
-#TestNG - Cross Browser Testing
+# TestNG - Cross Browser Testing
 
 Simple example of cross browser testing using TestNG
 
-##Run
+## Run
 
 ```
 mvn clean
 mvn test
 ```
 
-##Introduction
+## Introduction
 
 testng.xml file is a configuration file which organizes tests.
 It allows configuring tests to run in parallel, grouping tests, passing parameters into test methods.
